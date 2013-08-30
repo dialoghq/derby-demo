@@ -1,6 +1,8 @@
 <import: src="./home">
 <import: src="./list">
 
+<import: src="./register">
+
 <!--
   Derby templates are similar to Handlebars, except that they are first
   parsed as HTML, and there are a few extensions to make them work directly
@@ -19,6 +21,7 @@
 
 <Header:>
   <body class="{{dash($ns)}}">
+  <derby-toast:toast>
   <ui:connectionAlert>
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
@@ -36,6 +39,9 @@
   </div>
   <div class="content">
     <div class="container">
+      <div class="pull-right">
+        _irons.sessionId: {_irons.sessionId}
+      </div>
 
 <Footer:>
     </div>

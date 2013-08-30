@@ -15,11 +15,13 @@
     "redis": "~0.8.3",
     "livedb-mongo": "~0.2.0",
     "racer-browserchannel": "~0.1.0",
-    "connect-mongo": "~0.3.2",
     "convict": "~0.4.0",
     "validator": "~1.5.0",
     "nodemailer": "~0.5.2",
-    "derby-ui-boot": "0.1.x"
+    "derby-ui-boot": "0.1.x",
+    "derby-toast": "~0.1.1",
+    "racer": "~0.5.10",
+    "derby-irons": "0.0.0"
   },
   "engines": {
     "node": "0.10.x"
