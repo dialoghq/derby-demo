@@ -21,7 +21,7 @@
     "derby-ui-boot": "git://github.com/partial/derby-ui-boot.git#twbs3",
     "derby-ui-toast": "~0.1.1",
     "racer": "~0.5.10",
-    "derby-irons": "0.0.0"
+    "derby-irons": "git://github.com/partial/derby-irons.git#develop"
   },
   "engines": {
     "node": "0.10.x"
