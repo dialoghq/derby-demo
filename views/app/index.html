@@ -2,6 +2,7 @@
 <import: src="./list">
 
 <import: src="./register">
+<import: src="./login">
 
 <!--
   Derby templates are similar to Handlebars, except that they are first
@@ -37,11 +38,11 @@
       </div>
     </div>
   </div>
-  <div class="content">
-    <div class="container">
-      <div class="pull-right">
-        _irons.sessionId: {_irons.sessionId}
-      </div>
+  <div class="container">
+    <div class="pull-right">
+      _irons.sessionId: {_irons.sessionId} <br />
+      _irons.userId: {_irons.userId}
+    </div>
 
 <Footer:>
     </div>
