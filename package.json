@@ -18,7 +18,7 @@
     "convict": "~0.4.0",
     "validator": "~1.5.0",
     "nodemailer": "~0.5.2",
-    "derby-ui-boot": "0.1.x",
+    "derby-ui-boot": "git://github.com/partial/derby-ui-boot.git#twbs3",
     "derby-toast": "~0.1.1",
     "racer": "~0.5.10",
     "derby-irons": "0.0.0"
